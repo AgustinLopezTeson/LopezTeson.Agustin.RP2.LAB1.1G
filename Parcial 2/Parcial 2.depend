@@ -56,10 +56,11 @@
 	"Controller.h"
 	"post.h"
 
-1659649583 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\post.c
+1659653532 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\post.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	<string.h>
 	"input.h"
 	"LinkedList.h"
 	"parser.h"

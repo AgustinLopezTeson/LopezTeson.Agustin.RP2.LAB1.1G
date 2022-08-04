@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 #include "input.h"
 #include "LinkedList.h"
 #include "parser.h"
@@ -70,7 +71,6 @@ int main()
             default:
                 printf("Opcion invalida\n");
             }
-
         }while(seguir == 's');
         return 0;
     }
