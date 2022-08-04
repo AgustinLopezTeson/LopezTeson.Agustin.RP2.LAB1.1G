@@ -48,7 +48,7 @@ int controller_ListPost(LinkedList* pArrayListPost)
     ePost* auxPost=NULL;
     if(pArrayListPost!=NULL)
     {
-        printf("   ID           user               Likes              Dislikes          Followers\n\n");
+        printf("Id                User               Likes                Dislikes          Followers\n\n");
         for(int i = 0 ; i<ll_len(pArrayListPost); i++)
         {
             auxPost=(ePost* )ll_get(pArrayListPost,i);
@@ -186,7 +186,6 @@ int controller_filterLikes(LinkedList* pArrayListPost)
             controller_saveAsText(auxCadenaPath, aux);
             todoOk = 1;
         }
-
     }
     return todoOk;
 }
@@ -228,7 +227,6 @@ int controller_filterhate(LinkedList* pArrayListPost)
             controller_saveAsText(auxCadenaPath, pArrayListPost);
             todoOk = 1;
         }
-
     }
     return todoOk;
 }
@@ -262,7 +260,6 @@ int controller_saveAsText(char* path, LinkedList* pArrayListPost)
         if ( f == NULL )
         {
             printf("No se pudo abrir el archivo\n");
-
         }
 
         fprintf( f, "id,user,likes,dislikes,followers\n" );
@@ -271,7 +268,7 @@ int controller_saveAsText(char* path, LinkedList* pArrayListPost)
         {
             auxPost = ll_get(pArrayListPost, i);
             if (    post_getId( auxPost, &id ) &&
-                    post_getUser( auxPost, &user ) &&
+                    post_getUser( auxPost, user ) &&
                     post_getLikes( auxPost, &likes) &&
                     post_getDislikes(auxPost, &dislikes)&&
                     post_getFollowers(auxPost,&followers)

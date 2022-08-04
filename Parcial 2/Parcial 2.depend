@@ -7,17 +7,18 @@
 
 1659653166 c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\linkedlist.h
 
-1659652466 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\main.c
+1659653573 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	<string.h>
 	"input.h"
 	"LinkedList.h"
 	"parser.h"
 	"Controller.h"
 	"post.h"
 
-1659652798 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\controller.c
+1659654319 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\controller.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -36,7 +37,7 @@
 
 1659649920 c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\post.h
 
-1659653205 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\input.c
+1659654478 source:c:\users\agust\onedrive\escritorio\parcial 2 laboratorio 2022\lopezteson.agustin.rp2.lab1.1g\parcial 2\input.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
